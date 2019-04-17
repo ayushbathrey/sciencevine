@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<meta charset="utf-8">
+		<title>SignUp Form </title>
+		<style>
+		body  {
+  background-image: url(http://pluspng.com/img-png/png-hd-school-subjects-seamless-animation-flat-school-education-academic-icon-such-as-math-and-science-in-many-subjects-in-smooth-watercolor-paint-paper-colorful-background-in-4k-1920.png);
+  height: 1080px;
+  width: 1300px;
+  background-color: #cccccc;}
+		.login-form {
+			width: 300px;
+			margin: 0 auto;
+			font-family: Tahoma, Geneva, sans-serif;
+		}
+		.login-form h1 {
+			text-align: center;
+			color: #4d4d4d;
+			font-size: 40px;
+			padding: 20px 0 20px 0;
+		}
+		.login-form input[type="password"],
+		.login-form input[type="text"] {
+			width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box;
+		}
+		.login-form input[type="submit"] {
+			width: 100%;
+			padding: 15px;
+			background-color: #535b63;
+			border: 0;
+			box-sizing: border-box;
+			cursor: pointer;
+			font-weight: bold;
+			color: #ffffff;
+		}
+		</style>
+	</head>
+	<body> 
+		<nav class="navbar navbar-default">
+      	<div class="container-fluid">
+      		<div class="navbar-header">
+      			<a class="navbar-brand" href="/">ScienceVine</a>
+      		</div>
+      	</div>
+    </nav>
+		
+		<div  style=" float: center; text-align: center; font-size: 30px; font-style: sans-serif; width: 280px;
+    height: 550px;
+    color: black;
+    margin: 0 auto;
+    padding: 10px 50px 50px 50px;
+    border-radius: 40px;
+        " class="signup-form">
+			<h1>Signup</h1>
+			<form action="signup" method="POST">
+				<div><input style="width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box; " type="text" name="username" placeholder="Username" required></div>
+				<div><input style="width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box; " type="password" name="password" placeholder="Password" required></div>
+				<div><input style="width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box; " type="text" name="name" placeholder="name" required></div>
+				<div><input style="width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box; " type="email" name="email" placeholder="email" required></div>
+				<div><input style="width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box; " type="number" name="age" placeholder="age" required></div>
+				<div><input style="width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box; " type="text" name="address" placeholder="address" required></div>
+				<!-- <div><input type="number" name="ts1" placeholder="testscore" required></div>
+				<div><input type="number" name="correct1" placeholder="correct" required></div>
+				<div><input type="number" name="wrong1" placeholder="wrong" required></div> -->
+				<div><input style="width: 100%;
+			padding: 15px;
+			background-color: #535b63;
+			border: 0;
+			box-sizing: border-box;
+			cursor: pointer;
+			font-weight: bold;
+			color: #ffffff;" type="submit">
+			</form>
+		</div>
+	</body>
+</html>

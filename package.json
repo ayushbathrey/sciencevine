@@ -1,0 +1,31 @@
+{
+  "name": "chemistryquiz",
+  "version": "1.0.0",
+  "description": "nodeJS server for chemistry quiz",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "ejs": "^2.6.1",
+    "express": "^4.15.3",
+    "express-session": "^1.16.1",
+    "fs": "0.0.2",
+    "mongoose": "^4.10.7",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gzgracez/dynamicQuiz.git"
+  },
+  "author": "Grace Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzgracez/dynamicQuiz/issues"
+  },
+  "homepage": "https://github.com/gzgracez/dynamicQuiz#readme"
+}

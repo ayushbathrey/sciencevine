@@ -1,0 +1,6 @@
+C:\Users\Ayush\Downloads\dynamicQuiz-master\dynamicQuiz-master\obj\Debug\QuizApp.njsprojAssemblyReference.cache
+C:\Users\Ayush\Downloads\dynamicQuiz-master\dynamicQuiz-master\obj\Debug\QuizApp.njsproj.CoreCompileInputs.cache
+C:\Users\Ayush\Downloads\dynamicQuiz-master\dynamicQuiz-master\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Ayush\Downloads\dynamicQuiz-master\Quiz\obj\Debug\QuizApp.njsprojAssemblyReference.cache
+C:\Users\Ayush\Downloads\dynamicQuiz-master\Quiz\obj\Debug\QuizApp.njsproj.CoreCompileInputs.cache
+C:\Users\Ayush\Downloads\dynamicQuiz-master\Quiz\bin\Microsoft.NodejsTools.WebRole.dll

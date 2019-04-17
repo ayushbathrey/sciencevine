@@ -1,0 +1,118 @@
+body {
+    background-color: #fff;
+    background-image: url(http://pluspng.com/img-png/png-hd-school-subjects-seamless-animation-flat-school-education-academic-icon-such-as-math-and-science-in-many-subjects-in-smooth-watercolor-paint-paper-colorful-background-in-4k-1920.png);
+
+}
+
+
+.grid {
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+   
+
+}
+
+p{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+}
+title{
+    text-align: center;
+}
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #fff;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    width: 600px;
+    height: 300px;
+    font-family: "monospace";
+    font-size: 30px;
+    color: #5A6772;
+}
+
+.buttons {
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    /*padding: 0 30px 30px 60px;*/
+}
+
+#size-control{
+    width: 100px;
+    height: 160px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #ffffff;
+    width: 270px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin: 20px 25px 0px 0px;
+    /*padding: 0px 30px 30px 30px; */
+}
+ 
+ #btn1, #btn3{
+    margin-left: 80px;
+ }
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    border: 1px solid #fff;
+    width: 270px;
+    background-color: #57636e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+img {
+    border-radius: 50px;
+    height: 200px;
+    width: 260px;
+}
+
+
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;         
+    height: 0;
+        }
+
+        /* IMAGE STYLES */
+[type=radio] + img {
+    cursor: pointer;
+        }
+
+        /* CHECKED STYLES */
+[type=radio]:checked + img {
+     outline: 2px solid #f00;
+        }

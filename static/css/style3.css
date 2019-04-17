@@ -1,0 +1,155 @@
+
+body {
+    background-color: #fff;
+    background-image: url(http://pluspng.com/img-png/png-hd-school-subjects-seamless-animation-flat-school-education-academic-icon-such-as-math-and-science-in-many-subjects-in-smooth-watercolor-paint-paper-colorful-background-in-4k-1920.png);
+
+}
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.hero
+{
+    position: absolute;
+    font color: black;
+    margin-left: 500px;
+    margin-top: 130px;
+    
+}
+.team_name{
+    font color: blue;
+}
+.column
+{
+    position: absolute;
+    font color: white;
+    margin-left: 500px;
+    /*margin-top: 100px;*/
+    
+}
+
+.hera
+{
+    position: absolute;
+    font color: white;
+    font-size: 30px;
+    margin-left: 270px;
+    margin-top: 20px;
+    
+}
+
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+    font-family: cursive;
+    
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn
+{
+    margin-top: 130px;
+    margin-left:50px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.btn-two
+{
+    margin-top: 130px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+     border: 1px solid white;
+     padding: 10px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    
+}
+.tocnumber{
+     margin-top: 30px;
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
